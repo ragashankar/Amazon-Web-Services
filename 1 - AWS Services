@@ -1,0 +1,23 @@
+AWS Services:
+
+Compute - Compute services allow you to run one or many virtual machines, with your choice of operating systems
+You can load your applications on virtual machines, running one of these standard systems, or select from pre-made operating system images from the AWS marketplace. There are a number of different types of virtual machine configurations, with different combinations of resources, like CPU capacity and memory, suitable for different purposes and budgets. For example, some instance types are well suited for web server roles, whilst others are optimized for high performance computing tasks.
+
+AWS compute services include features to build highly scalable and resilient applications. Examples of these include ways to automatically add more compute resources based on application load, as well as load balancing of incoming user requests across multiple virtual machines. This is helpful in a number of scenarios. For example, to automatically handle spikes in user traffic, causing seasonal, weekly, or daily peak load times. Users logging in at the start of a new work day, for instance.
+
+Storage: There are three different types of block storage volumes. For example, including two that use super fast solid state drives, SSD. You can also take snapshot copies of entire disk volumes for backup purposes. For backups and long term archival, there are even more cost effective storage options available, such as Object Storage. AWS offers storage services that replicate your data to three different data centers inside a single region, to ensure that you do not lose your files. Object storage is also suitable for web applications to use as a primary repository for things such as HTML, JavaScript, video and image files. If you have a slow internet connection with limited bandwidth, uploading or downloading large amounts of data may take a long time. Therefore, AWS offers alternatives, like sending your physical hard drives to AWS for them to upload into your storage service of choice. This can save you a great deal of both time and money, if you do not have access to low cost, high bandwidth network connectivity.
+
+Content Delivery: Content delivery networks improve application response times by storing content and other application data close to the users. It is frequently used by web applications that have a large geographic footprint, as well as those dealing with high volumes of large data files, such as video streaming or software downloads, although there are many other applicable use cases that we will come back to in future courses. 
+Eg: Traditional DBs such as RDBMS andl aslo NoSQL
+AWS takes care of key operational activities, such as database backup and recovery, as well as high availability set up with replication between multiple data centers, to minimize the risk of down time and reduce the impact if downtime does happen.
+
+Networking services allow you to create and manage AWS resources using network topologies and management tools familiar to the enterprise network administrator.
+ - create VPC (virtual private cloud), manage subnets, network routes and gateways
+ 
+ Analytic services provide products to help with your large scale data analysis. split large data sets into smaller pieces, and then process each chunk in a parallel fashion, using a fully managed Hadoop service. Additionally, there is a service for storing your data warehouse, also managed by AWS, so you can get started quickly and easily with minimum up front investment of time or capital.
+ 
+ The deployment services help you to deploy your application to development, test, or production environments.
+ 
+ Mobile services provide a toolbox for mobile application developers to quickly and easily access mobile analytics data.
+
+They also enable application users to keep their information and data synchronized automatically across multiple mobile devices.
