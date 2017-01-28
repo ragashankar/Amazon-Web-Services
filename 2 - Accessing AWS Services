@@ -1,0 +1,26 @@
+AWS Management Console:
+   - Graphical User Interface
+   - It also allows for graphical representations of your infrastructure, such as monitoring graphs or colorful status indicators. 
+   -  not the ideal tool for task automation or for applications to utilize AWS services directly.
+AWS Command Line Interface:
+  -  Is rone by Linux, Windows etc.
+  
+AWS API:
+    - HTTP request sent directly to AWS to generate actions
+    - Manual siging and authentication must be done secure unless U wanna explicity allow people to use ur resources
+  
+AWS SDKs:
+    - Android, Jvascripts,ios,java,.Net,Node.js,PHP,Python,Ruby
+    -  AWS Resources can be managed programatically by creating instances ;  AWSresourceManager = new(AWSCREDENTIALS); where AWSCREDENTIALS are need to authorize the instance.
+    -  AWS provides IDK addons in eclipse
+    
+ Third party APPs:
+  -  ASGARD app from Netflix manage their AWS services.
+  -  GUI is similar to FTP, where files are on the left pane and S3 instances on the right
+  
+  AWS Mobile Apps:(AWS Console Mobile APPS)
+   - IOS and Android OS
+    - Quickly see in the mobile how the services are running, check ur account when u dont have computers nearby u can use mobile apps
+     -Provides limited functionality of accessing AWS services in mobile.
+      - not all AWS resources accessible
+       - provide read only access to AWS resources
